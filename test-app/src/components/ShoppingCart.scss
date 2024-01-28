@@ -1,0 +1,25 @@
+.shopping-cart-container {
+  height: 1440px;
+  padding: 40px;
+
+  &__title {
+    font-size: 64px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  &__main-content {
+    height: 100%;
+    display: flex;
+    gap: 32px;
+  }
+}
+
+.line {
+  height: 1px;
+  background-color: gray;
+  flex-grow: 1;
+  margin-left: 32px;
+}

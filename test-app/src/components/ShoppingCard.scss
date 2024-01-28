@@ -1,0 +1,21 @@
+.breadcrumbs-container {
+
+}
+
+.shopping-card-block {
+   height: 180px;
+   width: 780px;
+   border: 1px solid gray;
+   border-right: 12px;
+}
+
+.shopping-card-content {
+   padding: 32px;
+}
+
+.shopping-card-content__title-container {
+   display: flex;
+   justify-content: space-between;
+   font-size: 20px;
+   gap: 20px;
+}

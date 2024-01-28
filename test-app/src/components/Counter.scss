@@ -1,0 +1,51 @@
+.border-style {
+  border: 1px solid gray;
+}
+
+.border-radius {
+  border-radius: 6px;
+}
+
+.counter-block {
+  @extend .border-style;
+  @extend .border-radius;
+  height: 58px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+
+  div {
+    height: 100%;
+    width: 58px;
+
+    &:first-of-type {
+      border-right: 1px solid gray;
+      @extend .border-radius;
+    }
+    &:last-of-type {
+      border-left: 1px solid gray;
+      @extend .border-radius;
+    }
+  }
+
+  button {
+    @extend .border-radius;
+    height: 100%;
+    width: 58px;
+    font-size: 40px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color: gray;
+  }
+
+  input {
+    width: 66px;
+    height: 96%;
+    border: none;
+    font-size: 40px;
+    padding: 0 32px;
+    text-align: center;
+  }
+}
